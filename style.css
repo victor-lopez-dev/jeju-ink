@@ -411,7 +411,7 @@ footer {
 
 .footer-CTA {
   position: absolute;
-  bottom: 32px;
+  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #fff;
@@ -490,6 +490,25 @@ footer {
   /* Paragraph spacing and typography */
   margin-top: 16px;
   width: 80%;
+}
+
+.legal-pages-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 16px;
+  padding: 0 24px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.legal-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.legal-wrapper a {
+  color: #000;
 }
 
 /* Responsive Design */
@@ -623,5 +642,9 @@ footer {
   .legal-item-text {
     /* Paragraph spacing and typography */
     width: 100%;
+  }
+
+  .legal-pages-container {
+    padding: 0 8px;
   }
 }
