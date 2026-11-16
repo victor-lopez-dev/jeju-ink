@@ -500,15 +500,17 @@ footer {
   padding: 0 24px;
   width: 100%;
   font-size: 12px;
+  color: #fff;
 }
 
 .legal-wrapper {
   display: flex;
   gap: 16px;
+  color: #fff;
 }
 
 .legal-wrapper a {
-  color: #000;
+  color: #fff;
 }
 
 /* Responsive Design */
