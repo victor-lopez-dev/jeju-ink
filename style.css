@@ -461,7 +461,6 @@ footer {
 /* LEGAL PAGES */
 .legal-page {
   /* Main legal page container */
-  padding: 24px;
   margin-top: 80px;
   width: 100%;
 }
@@ -469,11 +468,13 @@ footer {
 .legal-header {
   /* Page title and introduction */
   margin-bottom: 8px;
+  padding: 24px;
 }
 
 .legal-item-container {
   /* Spacing between numbered sections */
   margin-top: 80px;
+  padding: 0 24px;
 }
 
 .legal-item-container h2 {
